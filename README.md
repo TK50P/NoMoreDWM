@@ -1,2 +1,48 @@
-# NoMoreDWM
-A simple/best way to disable DWM (Desktop Windows Manager), perfectly.
+The best way to disable DWM (Desktop Windows Manager) on Windows 8 and later. <br>
+This script makes to disable dwm and uses windows 7 basic theme. <br>
+This script doesn't suspend winlogon, doesn't replace sihost. <br>
+
+Story: <br>
+Microsoft introduced Windows Aero and starting with Windows Vista. <br>
+Windows Aero is a visual style with an emphasis on animation, glass, and translucency. <br>
+Until Windows 7, you could freely turn Aero on and off (Windows basic or Windows classic). <br>
+But since Windows 8, they removed Windows Basic and Windows Classic and made it impossible to disable DWM. (if you force kill DWM, it restarts soon) <br>
+However, DWM has the problem of "forcefully" activating vertical sync for each window, so the frame rate is fixed at 60 when playing in windowed mode. <br>
+Even in full screen mode, it is not suitable for people who play games while doing other tasks.
+
+This tool also fixes Blue Screen of Death (BSoD) is not showing on VirtualBox. <br>
+You MUST Enabled 3D acceleration and Video Controller is using VBoxVGA. <br>
+That means you need to use VirtualBox 6.0 and earlier. <br>
+Since VirtualBox 6.1 and later, 3D acceleration no longer works with VBoxVGA. But VBoxSVGA doesn't shows BSoD. <br>
+TL;DR: VirtualBox 6.1 or 3D acceleration has been disabled and if Video Controller is VBoxSVGA, it won't shows BSoD even it's disabled. <br>
+This is example of BSoD with VirtualBox 5.2.38 (Uses VBoxVGA by default until 5.2), 3D acceleration has been enabled.
+![Screenshot 2024-04-28 234429](https://github.com/TK50P/dwmdisablertool/assets/127497974/7b98fad4-3b7d-42c8-9448-a1580a1caeaa)
+
+
+Note Windows 10 and later hardware accleration MUST BE DISABLED ON EACH PROGRAMS. <br>
+Open shell or startisback must be installed to fix start menu not working.
+
+**In Windows 11, ExplorerPatcher or StartAllBack MUST BE INSTALLED.**
+
+This script works up to Windows 11.
+Mouse pointer not showing and broken Ribbon fixed. <br>
+How to use:
+1. Download script from Releases.
+2. Extract Revios_dwm.....cmd
+3. press 1, 1 to disable dwm
+4. you'll be logout when is done
+5. if you want to enable, run script again and press 1, 2
+
+Known Issues: <br>
+Settings (includes UWP) not work. so, you need to use Control Panel instead. but there's have LACK control panel items. many items are moved to settings. <br>
+In Windows 8/8.1, if you click network icon in the taskbar, the screen is cut off by 1/3 and does not disappear again. <br>
+Also, Ctrl+Alt+Del menu is black on Windows 8/8.1. (in Windows 10 will use console-based logonUI) <br>
+
+in Windows 10 1809+ to Windows 10 22H2 can be slightly unstable and unable to permanentely delete files. <br>
+And, There is a bug where the system often becomes unresponsive once an error occurs. some apps/programs not working even not UWP. <br>
+Processes may also remain even the window is completely closed. <br>
+This issue won't affect in Windows 8 and Windows 11.
+
+Screenshots:
+![VirtualBox_Windows 8 1 Embedded_09_03_2024_01_12_07](https://github.com/TK50P/dwmdisablertool/assets/127497974/60f70a51-30aa-4da4-a5af-4fa8dfdadc46)
+![Screenshot 2023-12-26 220551](https://github.com/TK50P/dwmdisablertool/assets/127497974/ce77adc4-2ccb-470a-ac36-0bcb07e1dc37)
