@@ -1,4 +1,6 @@
-The best way to disable DWM (Desktop Windows Manager) on Windows 8 and later. <br>
+# NoMoreDWM – A simple program to disable Desktop Window Manager
+
+![image](https://github.com/TK50P/NoMoreDWM/assets/127497974/dd5b467b-06be-4e35-a4e5-a7ada90e1304)
 
 Story: <br>
 Microsoft introduced Windows Aero and starting with Windows Vista. <br>
