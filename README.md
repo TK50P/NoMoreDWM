@@ -28,12 +28,6 @@ Open shell or startisback must be installed to fix start menu not working.
 
 This script works up to Windows 11.
 Mouse pointer not showing and broken Ribbon fixed. <br>
-How to use:
-1. Download script from Releases.
-2. Extract Revios_dwm.....cmd
-3. press 1, 1 to disable dwm
-4. you'll be logout when is done
-5. if you want to enable, run script again and press 1, 2
 
 Known Issues: <br>
 Settings (includes UWP) not work. so, you need to use Control Panel instead. but there's have LACK control panel items. many items are moved to settings. <br>
