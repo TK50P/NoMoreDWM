@@ -1,6 +1,4 @@
 The best way to disable DWM (Desktop Windows Manager) on Windows 8 and later. <br>
-This script makes to disable dwm and uses windows 7 basic theme. <br>
-This script doesn't suspend winlogon, doesn't replace sihost. <br>
 
 Story: <br>
 Microsoft introduced Windows Aero and starting with Windows Vista. <br>
@@ -18,6 +16,8 @@ TL;DR: VirtualBox 6.1 or 3D acceleration has been disabled and if Video Controll
 This is example of BSoD with VirtualBox 5.2.38 (Uses VBoxVGA by default until 5.2), 3D acceleration has been enabled.
 ![Screenshot 2024-04-28 234429](https://github.com/TK50P/dwmdisablertool/assets/127497974/7b98fad4-3b7d-42c8-9448-a1580a1caeaa)
 
+
+**TBD**
 
 Note Windows 10 and later hardware accleration MUST BE DISABLED ON EACH PROGRAMS. <br>
 Open shell or startisback must be installed to fix start menu not working.
