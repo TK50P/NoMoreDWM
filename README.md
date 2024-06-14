@@ -16,7 +16,8 @@ That means you need to use VirtualBox 6.0 and earlier. <br>
 Since VirtualBox 6.1 and later, 3D acceleration no longer works with VBoxVGA. But VBoxSVGA doesn't shows BSoD. <br>
 TL;DR: VirtualBox 6.1 or 3D acceleration has been disabled and if Video Controller is VBoxSVGA, it won't shows BSoD even it's disabled. <br>
 This is example of BSoD with VirtualBox 5.2.38 (Uses VBoxVGA by default until 5.2), 3D acceleration has been enabled.
-![Screenshot 2024-04-28 234429](https://github.com/TK50P/dwmdisablertool/assets/127497974/7b98fad4-3b7d-42c8-9448-a1580a1caeaa)
+![image](https://github.com/TK50P/NoMoreDWM/assets/127497974/d9ed49b8-fc8d-44a3-8209-0451d9160311)
+
 
 
 **TBD**
@@ -38,7 +39,5 @@ in Windows 10 1809+ to Windows 10 22H2 can be slightly unstable and unable to pe
 And, There is a bug where the system often becomes unresponsive once an error occurs. some apps/programs not working even not UWP. <br>
 Processes may also remain even the window is completely closed. <br>
 This issue won't affect in Windows 8 and Windows 11.
+![VirtualBox_Windows 8 1_14_06_2024_18_58_45](https://github.com/TK50P/NoMoreDWM/assets/127497974/ff8fbed4-5a32-467f-af3c-1cf40d754004)
 
-Screenshots:
-![VirtualBox_Windows 8 1 Embedded_09_03_2024_01_12_07](https://github.com/TK50P/dwmdisablertool/assets/127497974/60f70a51-30aa-4da4-a5af-4fa8dfdadc46)
-![Screenshot 2023-12-26 220551](https://github.com/TK50P/dwmdisablertool/assets/127497974/ce77adc4-2ccb-470a-ac36-0bcb07e1dc37)
