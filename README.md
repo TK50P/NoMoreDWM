@@ -1,6 +1,8 @@
 # NoMoreDWM – A Simple Program to Disable Desktop Window Manager
 
-**![image](https://github.com/TK50P/NoMoreDWM/assets/127497974/2239eb9e-95a0-457b-86ca-ccdc7c4d9059)**
+![image1](https://github.com/user-attachments/assets/c0599679-848c-485b-9e84-7294d4720a73)
+![image2](https://github.com/user-attachments/assets/414fe510-234f-4081-b4ce-957378395d60)
+
 
 **Story:**  
 Microsoft introduced Windows Aero starting with Windows Vista.  
