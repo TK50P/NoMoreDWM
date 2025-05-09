@@ -1,7 +1,5 @@
 # NoMoreDWM – A Simple Program to Disable Desktop Window Manager
 
-# PLEASE NOTE I AM NOT GETTING SUPPORT FROM ISSUES SINCE MAR 22 2025. PLEASE FIND YOURSELF FOR SOLUTION. (Winclassic etc)
-
 ![image1](https://github.com/user-attachments/assets/c0599679-848c-485b-9e84-7294d4720a73)
 ![image2](https://github.com/user-attachments/assets/cbccfc6e-6b19-4db6-b756-f5ec6271ab5e)
 
