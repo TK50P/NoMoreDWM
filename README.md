@@ -6,7 +6,10 @@
 </p>
 
 > [!CAUTION]
-> **DO NOT RUN** on your main PC or mission-critical Machines.
+> **DO NOT RUN** this on your main PC or mission-critical systems.  
+This tool directly interacts with DWM behavior and may cause instability.
+> 
+> Please **do not open GitHub issues** — this is a proof-of-concept and was not developed with full knowledge of DWM internals (no reverse engineering involved).
 
 **Story:**  
 Microsoft introduced Windows Aero starting with Windows Vista.  
